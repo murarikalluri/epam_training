@@ -1,0 +1,26 @@
+11904814-regno
+
+1)ans:
+
+2)ans: ls myfile.txt
+
+3)ans: mkdir folder1
+touch fie names
+nano file.sh
+to change permissions 
+chmod 700 file names
+ls -l file names to check whether the permisions remover or not for groups and others'
+nano file.sh
+read a 
+provide name through comnd lline with folder1
+directory will be creaed on behalf of name folder1
+for i in directory
+do
+echo "chmod 777 filenames"
+done
+read-4
+write-2
+excute-1
+for providing all permisions to user groups and others we can use 777 for all permisions.
+for excution of file . file.sh
+
