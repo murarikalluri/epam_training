@@ -1,6 +1,18 @@
 11904814-regno
 
-1)ans:
+1)ans:case $# in
+    0) echo "No directory name provided" >&2 ; exit 1;;
+    1) cd "${1}" || exit $?;;
+    *) echo "Too many parameters provided" >&2 ; exit 1;;
+esac
+
+shopt -s extglob # Enables extended globbing
+
+# Search for files that do not end with given filename
+for filename in !(*.xyz)
+do
+    test -f && mv "${filename}" "${filename}.xyz"
+done
 
 2)ans: ls myfile.txt
 
